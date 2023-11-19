@@ -34,7 +34,7 @@ Once installed, go to `Window > Analysis > Shader Variant Analysis`.
 
 ## Usage
 
-Enable the "Trace Next Build" setting (`Shader Variant Analysis > Build Settings > Trace Next Build`), in order to record your project's shader generation at build time. Set the file path where the trace will be saved:
+Enable the "Trace Next Build" setting (`Shader Variant Analysis > Build Settings > Trace Next Build`), in order to record your project's shader generation at build time. The trace file will be saved in your project's Asset folder, using the specified name:
 
 <p align="center">
   <img width="100%" src="https://github.com/eldnach/shader-variant-analysis/blob/main/.github/images/build-settings.png?raw=true" alt="BuildSettings">
