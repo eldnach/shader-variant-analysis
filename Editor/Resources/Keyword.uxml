@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Keyword" style="flex-grow: 1; background-color: rgb(56, 56, 56); min-height: auto; padding-left: 0; margin-left: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0.5px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-top: 3px; flex-direction: row; min-width: auto;">
+        <ui:Toggle value="true" style="flex-grow: 0; flex-direction: column;" />
+        <ui:Label tabindex="-1" text="KEYWORD0" display-tooltip-when-elided="true" name="KeywordName" style="-unity-font-style: normal; padding-left: 5px; min-width: 30%; max-width: none; flex-grow: 1; width: 10%;" />
+        <ui:VisualElement name="Divider" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.22); min-width: 1px; max-width: 1px; margin-bottom: 2px;" />
+        <ui:Label tabindex="-1" text="NA&#10;" display-tooltip-when-elided="true" name="TotalVariants" style="-unity-font-style: normal; padding-left: 5px; min-width: 10%; max-width: none; flex-grow: 1; width: 10%;" />
+        <ui:VisualElement name="Divider" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.22); min-width: 1px; max-width: 1px; margin-bottom: 2px;" />
+    </ui:VisualElement>
+</ui:UXML>

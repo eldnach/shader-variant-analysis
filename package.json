@@ -1,0 +1,16 @@
+{
+  "name": "com.eldnach.shader-variant-analysis",
+  "version": "0.1.0",
+  "displayName": "Shader Variant Analysis",
+  "description": "Track your project's Shader Variant generation. Identify which shaders, keywords and features generate the most shader permutations",
+  "unity": "2021.3",
+  "unityRelease": "16f1",
+  "documentationUrl": "https://github.com/eldnach/unity-variant-analysis/blob/main/README.md",
+  "licensesUrl": "https://github.com/eldnach/unity-variant-analysis/blob/main/LICENSE",
+  "keywords": [],
+  "author": {
+    "name": "eldnach",
+    "email": "nachd1337@gmail.com"
+  },
+  "hideInEditor": false
+}

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="PlatformLabel" style="flex-grow: 1; background-color: rgb(63, 35, 48); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-left-color: rgb(70, 70, 70); border-right-color: rgb(70, 70, 70); border-top-color: rgb(70, 70, 70); border-bottom-color: rgb(70, 70, 70); flex-direction: row; justify-content: flex-end;">
+        <ui:Label tabindex="-1" text="PASS" display-tooltip-when-elided="true" name="PlatformLabelName" style="color: rgb(180, 180, 180);" />
+    </ui:VisualElement>
+</ui:UXML>

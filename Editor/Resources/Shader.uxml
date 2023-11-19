@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Shader" style="flex-grow: 1; background-color: rgb(38, 38, 38); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-bottom-width: 0.5px;">
+        <ui:VisualElement name="ShaderSummary" style="flex-grow: 1; background-color: rgb(38, 38, 38); min-height: auto; padding-left: 0; margin-left: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-top: 3px; flex-direction: row; min-width: auto;">
+            <ui:Label tabindex="-1" text="URP Lit" display-tooltip-when-elided="true" name="ShaderName" style="-unity-font-style: normal; padding-left: 5px; min-width: 27%; max-width: none; flex-grow: 1; width: 10%; overflow: hidden;" />
+            <ui:VisualElement name="Divider" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.22); min-width: 1px; max-width: 1px; margin-bottom: 2px;" />
+            <ui:Label tabindex="-1" text="1234567" display-tooltip-when-elided="true" name="TotalVariants" style="-unity-font-style: normal; padding-left: 5px; min-width: 10%; max-width: none; flex-grow: 1; width: 10%;" />
+            <ui:VisualElement name="Divider" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.22); min-width: 1px; max-width: 1px; margin-bottom: 2px;" />
+        </ui:VisualElement>
+        <ui:Foldout text="Keywords" name="KeywordsFoldout" value="false" style="-unity-font-style: normal; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(255, 255, 255, 0); min-height: auto; min-width: auto; cursor: initial; font-size: 10px; color: rgba(255, 255, 255, 0.59); -unity-text-outline-color: rgba(255, 255, 255, 0.78); flex-grow: 0;" />
+        <ui:Foldout text="Built Variants" name="BuiltVariantsFoldout" value="false" style="-unity-font-style: normal; font-size: 10px; color: rgba(255, 255, 255, 0.59);" />
+    </ui:VisualElement>
+</ui:UXML>

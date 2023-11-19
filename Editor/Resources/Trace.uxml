@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Trace" style="flex-grow: 1; background-color: rgb(38, 38, 38); flex-direction: row; min-width: auto; min-height: auto; margin-left: 0; margin-right: -5px;">
+        <ui:Toggle name="Active" value="true" style="align-items: flex-start; justify-content: flex-start; padding-top: 3px; margin-left: 0; flex-grow: 0; align-self: auto; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-right: 2px; padding-left: 3px;" />
+        <ui:VisualElement name="TraceSummary" style="flex-grow: 1; background-color: rgb(38, 38, 38); min-height: auto; padding-left: 0; margin-left: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-top: 3px; flex-direction: row; min-width: auto; align-items: flex-start; padding-top: 0;">
+            <ui:Label tabindex="-1" text="dsadasddasdasdasdasdasdada" display-tooltip-when-elided="true" name="TraceName" style="-unity-font-style: normal; padding-left: 5px; min-width: 30%; max-width: none; flex-grow: 1; width: 10%; white-space: nowrap; overflow: hidden;" />
+            <ui:VisualElement name="Divider" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.22); min-width: 1px; max-width: 1px; margin-bottom: 2px; max-height: 15px; min-height: 15px; -unity-text-align: lower-left; flex-direction: column; align-items: flex-end; justify-content: space-evenly; align-self: flex-end;" />
+            <ui:Label tabindex="-1" text="1" display-tooltip-when-elided="true" name="TotalShaders" style="-unity-font-style: normal; padding-left: 5px; min-width: auto; max-width: none; flex-grow: 1; width: 15%;" />
+            <ui:VisualElement name="Divider" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.22); min-width: 1px; max-width: 1px; margin-bottom: 2px; align-self: flex-end; max-height: 15px; min-height: 15px;" />
+            <ui:Label tabindex="-1" text="1" display-tooltip-when-elided="true" name="TotalVariants" style="-unity-font-style: normal; padding-left: 5px; min-width: auto; max-width: none; flex-grow: 1; width: 15%;" />
+            <ui:VisualElement name="Divider" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0.22); min-width: 1px; max-width: 1px; margin-bottom: 2px; align-self: flex-end; max-height: 15px; min-height: 15px;" />
+            <ui:Label tabindex="-1" text="YYMMDDHHMM" display-tooltip-when-elided="true" name="Timestamp" style="-unity-font-style: normal; padding-left: 5px; min-width: auto; flex-grow: 1; width: 15%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

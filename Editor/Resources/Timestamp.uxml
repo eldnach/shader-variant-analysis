@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Timestamp" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-wrap: nowrap; white-space: normal; -unity-text-align: lower-left; flex-shrink: 1; min-width: auto; min-height: auto; align-items: stretch; justify-content: flex-end; text-overflow: ellipsis; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; max-width: none; align-self: auto; width: auto;">
+        <ui:VisualElement name="TimestampLabel" style="flex-grow: 0; background-color: rgb(48, 48, 48); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-left-color: rgb(70, 70, 70); border-right-color: rgb(70, 70, 70); border-top-color: rgb(70, 70, 70); border-bottom-color: rgb(70, 70, 70); flex-direction: row; justify-content: flex-start; flex-shrink: 0; width: auto;">
+            <ui:Label tabindex="-1" text="YY.MM.DD - HH:MM" display-tooltip-when-elided="true" name="TimestampLabelDate" style="color: rgb(180, 180, 180);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

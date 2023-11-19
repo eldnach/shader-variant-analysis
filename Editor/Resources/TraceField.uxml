@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="TraceContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; min-height: auto; min-width: auto; align-items: flex-start; margin-left: 3px; margin-right: 3px; margin-top: 4px;">
+        <uie:ObjectField name="TraceObjectField" type="UnityEngine.Object, UnityEngine.CoreModule, UnityEngine.ShaderVariantTrace" style="margin-top: 0; margin-bottom: 0; flex-shrink: 1; flex-grow: 1; margin-left: 0; margin-right: 0; padding-right: 5px;" />
+    </ui:VisualElement>
+</ui:UXML>

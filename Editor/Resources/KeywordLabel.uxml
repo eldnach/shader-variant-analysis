@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="KeywordLabel" style="flex-grow: 1; background-color: rgb(65, 65, 65); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-left-color: rgb(135, 135, 135); border-right-color: rgb(135, 135, 135); border-top-color: rgb(135, 135, 135); border-bottom-color: rgb(135, 135, 135); flex-direction: row; justify-content: flex-start; align-items: auto;">
+        <ui:Label tabindex="-1" text="KEYWORD0" display-tooltip-when-elided="true" name="KeywordLabelName" enable-rich-text="false" style="flex-grow: 1; color: rgb(180, 180, 180);" />
+    </ui:VisualElement>
+</ui:UXML>
