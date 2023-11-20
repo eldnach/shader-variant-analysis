@@ -26,9 +26,10 @@ It is advised to monitor the project's shader variant generation, and ensure no 
 Supported in Unity 2021 LTS and later.
 
 ## Setup
-1. In the Unity Editor, go to `Window > Package Manager`
-2. In the top left of the Package Manager window, click on `+ > Add package from git URL...` 
-3. Add the following URL "https://github.com/eldnach/shader-variant-analysis.git" and click `Add`
+1. Clone the package repository "https://github.com/eldnach/shader-variant-analysis"
+2. In the Unity Editor, go to `Window > Package Manager`
+3. In the top left of the Package Manager window, click on `+ > Add package from disk` 
+4. Add the package directory
 
 Once installed, go to `Window > Analysis > Shader Variant Analysis`.
 
